@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+    font-family: helvetica, sans-serif;
+    max-width: 100%;
+    color: #fff;
+    background-color: #1b1c1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+div:first-of-type {
+    padding-top: 40px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Hide the output paragraph until the user has submitted the form */
+p {
+    background: #ffc125;
+    color: #5e2612;
+    padding: 10px;
+    visibility: hidden;
+    width: 40%;
+}
+
+button {
+    padding: 10px;
+    background-color: darkgreen;
+    color: #ffc125;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: rgb(4, 119, 4);
+}
